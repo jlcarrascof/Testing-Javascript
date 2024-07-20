@@ -1,1 +1,1 @@
-const isVowel = char => 'aeiou'.includes();
+const isVowel = char => 'aeiou'.includes(char);
