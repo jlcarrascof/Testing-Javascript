@@ -8,7 +8,7 @@ console.assert(isVowel('a'), "It's a vowel");
 
 try {
     // assert.ok(isVowel('e'));
-    assert.equal(isVowel('e'), false)
+    assert.equal(isVowel('e'), true)
 } catch (error) {
     console.log(error.message);
 }
