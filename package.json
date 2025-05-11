@@ -12,5 +12,8 @@
     "EDteam"
   ],
   "author": "Javier J. Martínez F.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
