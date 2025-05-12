@@ -7,3 +7,7 @@ test('The word "hello" must be included in my string', () => {
 test('The word "hello" must be included in my string', () => {
     expect(helloWorld).not.toMatch(/hello/)
 })
+
+test('I wanto to verify that 1 === 1', () => {
+    expect(1 === 1).toBeTruthy()
+})
