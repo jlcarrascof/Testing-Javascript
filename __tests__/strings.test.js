@@ -1,13 +1,15 @@
 var helloWorld = 'Hello world'
 
-test('The word "hello" must be included in my string', () => {
-    expect(helloWorld).toMatch(/Hello/)
-})
+describe('String tests', () => {
+    test('The word "hello" must be included in my string', () => {
+        expect(helloWorld).toMatch(/Hello/)
+    })
 
-test('The word "hello" must be included in my string', () => {
-    expect(helloWorld).not.toMatch(/hello/)
-})
+    test('The word "hello" must be included in my string', () => {
+        expect(helloWorld).not.toMatch(/hello/)
+    })
 
-test('I wanto to verify that 1 === 1', () => {
-    expect(1 === 1).toBeTruthy()
+    test('I want to verify that 1 === 1', () => {
+        expect(1 === 1).toBeTruthy()
+    })
 })
